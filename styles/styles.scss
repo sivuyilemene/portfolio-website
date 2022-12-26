@@ -42,7 +42,7 @@ header {
     height: 100vh;
     color: var(--color-white);
     overflow: hidden;
-
+    padding: 0 !important;
 }
 
 
@@ -171,7 +171,7 @@ section {
         .image{
             border-radius: var(--br-sm-2);
             height: 90%;
-            width: 65%;
+            width: 68%;
             margin-left: 4rem;
             background-color: var(--color-black);
             transition: var(--transition);
@@ -207,8 +207,71 @@ section {
     }
 }
 
+/*ABOUT SECTION*/
 
-
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    .right-about{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+        .about-item{
+                border: 1px solid var(--color-grey-5);
+                border-radius: 5px;
+                transition: var(--transition);
+                box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+                &:hover{
+                    cursor: default;
+                    transform: translateY(-5px);
+                    border: 1px solid var(--color-secondary);
+                    box-shadow: 1px 2px 15px rgba(0,0,0,.32);
+                }
+                .abt-text{
+                    padding: 1.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    .large-text{
+                        font-size: 3rem;
+                        font-weight: 700;
+                        color: var(--color-secondary);
+                      
+                    }
+                    .small-text{
+                         padding-left: 3rem;
+                         position: relative;
+                         text-transform: uppercase ;
+                         font-size: 1.2rem;
+                         color: var(--color-grey-1);
+                         letter-spacing: 2px;
+                         &::before{
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            top: 15px;
+                            width: 2rem;
+                            height: 2px;
+                            background-color: var(--color-grey-5);
+                         }
+                    }
+                }
+        }
+    }
+    .left-about{
+        padding-right: 5rem;
+        p{
+            line-height: 2rem;
+            padding-top: 1rem;
+            color: var(--color-grey-1);
+        }
+        h4{
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        }
+}
 
 /*INDEPENDENT COMPONENTS*/
 .btn-container{
