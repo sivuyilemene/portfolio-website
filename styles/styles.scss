@@ -300,6 +300,8 @@ section {
                     position: relative;
                     span{
                         position: absolute;
+                        top: 0;
+                        left: 0;
                         height: 100%;
                         background-color: var(--color-secondary);
                         transition: var(--transition);
@@ -316,7 +318,7 @@ section {
                         width: 40%;
                     }
                     .python{
-                        width: 70%;
+                        width: 80%;
                     }
                     .sql{
                         width: 50%;
@@ -329,12 +331,12 @@ section {
 
 .stat-title{
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     padding: 3.5rem 0;
     position: relative;
     &::before{
-        content: " ";
+        content: '';
         left: 50%;
         top: 0;
         width: 40%;

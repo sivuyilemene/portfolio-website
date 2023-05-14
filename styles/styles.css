@@ -287,6 +287,8 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress span {
   position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   background-color: var(--color-secondary);
   transition: var(--transition);
@@ -302,7 +304,7 @@ section {
   width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
   width: 50%;
@@ -310,13 +312,13 @@ section {
 
 .stat-title {
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   padding: 3.5rem 0;
   position: relative;
 }
 .stat-title::before {
-  content: " ";
+  content: "";
   left: 50%;
   top: 0;
   width: 40%;
