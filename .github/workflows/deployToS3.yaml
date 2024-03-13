@@ -19,4 +19,4 @@ jobs:
           aws-region: ${{secrets.AWS_REGION}}
       
       - name: Deploy portfolio to S3 bucket
-        run: aws s3 sync . s3://my-porfolio-website --delete
+        run: aws s3 sync . s3://my-portfolio-website --delete
