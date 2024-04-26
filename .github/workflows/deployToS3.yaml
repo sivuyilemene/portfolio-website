@@ -19,4 +19,4 @@ jobs:
           aws-region: ${{secrets.AWS_REGION}}
       
       - name: Deploy portfolio to S3 bucket
-        run: aws s3 sync . s3://sivu-portfolio-bucket --delete
+        run: aws s3 sync . s3://sivuyile.dev --delete
