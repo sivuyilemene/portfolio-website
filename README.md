@@ -12,3 +12,4 @@
 - [ ] Submit message via email
 - [X] Fix media query sizing on bigger mobile devices
 - [ ] Add favicon icon
+- [ ] Terraform script
