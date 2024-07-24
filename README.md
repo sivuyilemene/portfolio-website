@@ -13,3 +13,4 @@
 - [X] Fix media query sizing on bigger mobile devices
 - [ ] Add favicon icon
 - [ ] Terraform script
+- [ ] SEO 
