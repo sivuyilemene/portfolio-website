@@ -1,16 +1,29 @@
-### TODO
+# Personal Portfolio
+Welcome to my personal portfolio website. This site showcases my projects, skills, and experience. Feel free to explore and connect with me.
 
-- [X] Blog Section
-- [X] Contacts Section
-- [X] Mobile Media Query Section
-- [X] Light Mode
-- [ ] Update Readme with Project Details
-- [X] Add details to timeline
-- [X] Change Skills progress bars to icons
+
+
+
+
+## ARCHITECTURE
+
+![Architecture Diagram](./Architecture%20Diagram.png)
+
+## Services Used
+
+- S3
+- Cloudfront
+- Certificate Manager
+- Route 53
+- Github Actions
+- Terraform
+
+
+
+## TODO
 - [ ] Add github and linkedin icons to home page
 - [ ] Download CV functionality
 - [ ] Submit message via email
-- [X] Fix media query sizing on bigger mobile devices
 - [ ] Add favicon icon
 - [ ] Terraform script
 - [ ] SEO 
